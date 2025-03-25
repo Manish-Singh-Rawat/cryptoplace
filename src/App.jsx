@@ -13,6 +13,7 @@ const App = () => {
         <Route path ='/' element={<Home/>}/>
         <Route path='/coin/:coinId' element={<Coin/>}/>
       </Routes>
+      
       <Footer/>
     </div>
   )

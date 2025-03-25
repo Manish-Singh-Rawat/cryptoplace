@@ -9,6 +9,7 @@
     place-self: center;
     border:  5px solid #bdbdbd;
     border-top-color: #4500c6;
+    
     border-radius: 50%;
     animation: rotate 2s infinite;
 }

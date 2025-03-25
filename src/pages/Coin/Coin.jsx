@@ -11,6 +11,7 @@ const Coin = () => {
   const { currency } = useContext(CoinContext);
 
   const fetchCoinData = async () => {
+    
     const options = {
       method: 'GET',
       headers: {
