@@ -15,7 +15,7 @@ const LineChart = ({historicalData}) => {
         } 
     },[historicalData])
 
-  return (
+  return  (
   <Chart
     chartType='LineChart'
     data={data}

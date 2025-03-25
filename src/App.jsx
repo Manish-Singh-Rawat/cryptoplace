@@ -10,12 +10,11 @@ const App = () => {
     <div className='app'>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path ='/' element={<Home/>}/>
         <Route path='/coin/:coinId' element={<Coin/>}/>
       </Routes>
       <Footer/>
     </div>
   )
 }
-
 export default App

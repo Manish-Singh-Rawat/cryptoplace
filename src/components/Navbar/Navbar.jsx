@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.png'
-import arrow_icon from '../../assets/arrow_icon.png'
+import logo from '../../assets/log.png'
+import arrow_icon from '../../assets/arro_icon.png'
 import { CoinContext } from '../../context/CoinContext'
 import {Link} from 'react-router-dom'
  
@@ -28,7 +28,7 @@ const Navbar = () => {
         break;
       }
     }
-  }
+   }
 
   return (
     <div className='navbar'>

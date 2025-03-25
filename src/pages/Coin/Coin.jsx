@@ -63,7 +63,7 @@ const Coin = () => {
           {historicalData ? <LineChart historicalData={historicalData} /> : <p>Loading chart...</p>}
         </div>
 
-        <div className="coin-info">
+         <div className="coin-info">
           <ul>
             <li>Crypto Market Rank</li>
             <li>{coinData.market_cap_rank}</li>
